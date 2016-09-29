@@ -13,17 +13,17 @@ How to use
 ------------
 Want to use this file through Flask?
 First, run
-'''
+```
 pip install -r requirements.txt
-'''
+```
 Now, you have Flask installed on your computer. Next, run
-'''
+```
 python server.py
-'''
+```
 From there, you go to localhost:5000, where you can select the file you want. Then, when you submit, the outputted genome will live inside of your "outputs" folder.
 
 Don't want to deal with the flask interface? In that case, just run the following from command line for a file in in the inputs folder
-'''
+```
 python analyze_fragments.py inputs/practice_input_1.txt practice_output_1.txt
-'''
+```
 This will output a file called "practice_outputs_1.txt" in your outputs folder. 
