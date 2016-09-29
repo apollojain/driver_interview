@@ -1,0 +1,20 @@
+{% extends "default.html" %}
+{% block content %}
+<style>
+#message {
+	color:green;
+}
+
+</style>
+<div class="container">
+	<h6 id="message">{{message}}</h6>
+	<h2>Driver Genome Analysis</h2>
+	
+	<form action="submission" method="POST" enctype="multipart/form-data">
+	    <div class="form-group">
+	    	<input type="file" id="file_input" name="file" class="btn btn-secondary"/>
+		</div>
+		<input type="submit" class="btn btn-primary"/>
+	</form>
+</div>
+{% endblock %}
