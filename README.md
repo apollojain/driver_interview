@@ -24,6 +24,6 @@ From there, you go to localhost:5000, where you can select the file you want. Th
 
 Don't want to deal with the flask interface? In that case, just run the following from command line for a file in in the inputs folder
 ```
-python analyze_fragments.py inputs/practice_input_1.txt practice_output_1.txt
+python analyze_fragment.py inputs/practice_input_1.txt practice_output_1.txt
 ```
 This will output a file called "practice_outputs_1.txt" in your outputs folder. 
